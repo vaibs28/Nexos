@@ -1,0 +1,20 @@
+0000011319353459011000000000020000080403001305102808301308040804123456123456192165102801
+0000011519355459011000000000041000080403001305102808301308040804123456123456192165102839
+
+//-----------------------------------------------------------------------------------------------------------------
+
+// the following is the fields and mapping//
+
+//Message 1 map - use this to decode the map and fields - the example references the first message - in line 1 above
+
+Data Element 2. Length 16. Value : 0000011319353459 = Account_number
+Data Element 3. Length 6. Value :  011000 = Code 
+Data Element 4. Length 12. Value : 000000020000 =Amount 200.00
+Data Element 7. Length 10. Value : 0804030013 =Datetime DDMMhhmmss
+Data Element 11. Length 6. Value : 051028 = Trace_number
+Data Element 12. Length 6. Value : 083013 =Time  hhmmss
+Data Element 13. Length 4. Value : 0804 =Date  MMDD
+Data Element 17. Length 4. Value : 0804 =Capture_date  MMDD
+Data Element 32. Length 6. Value : 123456 = Company_id 123456
+Data Element 37. Length 12. Value : 192165102801 = Reference_num 
+//
