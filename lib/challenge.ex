@@ -9,7 +9,7 @@ defmodule Challenge do
     fieldsList = ["Account_Number","Code","Amount", "Datetime","Trace_number","Time","Date","Capture_date","Company_id","Reference_num"]
     #fieldMap = %{"Account_Number": 16, "Code": 6, "Amount": 12, "Datetime": 10, "Trace_number": 6, "Time": 6, "Date": 4, "Capture_date": 4, "Company_id": 6, "Reference_num": 12}
     #reads the file content using the delimiters \n for a new line
-    {:ok,fileContents} = File.read("/Users/vaibhav/Documents/nexos/challenge/lib/test.txt");
+    {:ok,fileContents} = File.read("lib/test.txt");
     #splitting the contents on newline and storing in a list
     lines = fileContents |> String.split("\n")
     #iterate over each line
